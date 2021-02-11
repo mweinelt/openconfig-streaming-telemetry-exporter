@@ -3,7 +3,7 @@ package collector
 import (
 	"testing"
 
-	pb "github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/telemetry"
+	pb "github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/telemetry"
 	"github.com/stretchr/testify/assert"
 )
 

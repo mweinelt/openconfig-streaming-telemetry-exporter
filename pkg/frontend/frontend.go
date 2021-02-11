@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/collector"
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/collector"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/config"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	promlog "github.com/prometheus/common/log"

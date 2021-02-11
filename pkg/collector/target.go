@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
-	pb "github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/telemetry"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/config"
+	pb "github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/telemetry"
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"

@@ -17,8 +17,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
-	pb "github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/telemetry"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/config"
+	pb github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/telemetry"
 )
 
 type mockTelemetryServer struct {

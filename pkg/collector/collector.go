@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/config"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

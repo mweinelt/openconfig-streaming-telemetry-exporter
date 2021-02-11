@@ -15,9 +15,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/collector"
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/frontend"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/collector"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/config"
+	"github.com/mweinelt/openconfig-streaming-telemetry-exporter/pkg/frontend"
 )
 
 const version string = "0.0.0"
